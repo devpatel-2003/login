@@ -1,0 +1,76 @@
+.container {
+    position: fixed;
+    /* background-color: rgba(0, 128, 0, 0.349); */
+    width: 500px;
+    height: 550px;
+    top: 80px;
+    left: 33%;
+    border: 1px solid lightblue;
+    backdrop-filter: blur(5px);
+}
+
+body {
+    background-image: url(https://kuorum.org/wp-content/uploads/2020/05/voto-electronico-validez-legal-940x488.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: lightblue;
+    position: relative;
+    text-align: center;
+}
+
+input {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    height: 20px;
+    bottom: 19px;
+    transition: height 0.5s;
+}
+
+h3 {
+    position: relative;
+    top: 20px;
+}
+
+.otp {
+    position: relative;
+    left: 25%;
+    height: 25.5px;
+    bottom: 19px;
+}
+
+.login {
+    position: relative;
+    text-align: center;
+}
+
+.lgn_btn {
+    position: relative;
+    width: 40%;
+    height: 26px;
+    font-size: 18px;
+    top: 25px;
+    transition: height 1s;
+}
+
+.lgn_btn:hover {
+    height: 35px;
+    background-color: red;
+    color: #fff;
+}
+
+.or {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+a {
+    position: relative;
+    bottom: 10px;
+}

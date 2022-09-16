@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <form action="submit">
+        <div class="container">
+            <div class="main">
+                <h1>Login</h1>
+
+                <h3>Name :</h3>
+                <input type="text" placeholder="Name" id="name" required>
+                <h3>Mobile No. :</h3>
+                <input type="tel" placeholder="Mobile Number" id="phone" autocomplete="number" required>
+                <h3>Password :</h3>
+                <input type="password" placeholder="Password" id="pass" autocomplete="current-password" required>
+                <h3>OTP :</h3>
+                <input type="text" placeholder="Enter OTP" id="otp" inputmode="numeric" autocomplete="one-time-code" pattern="\d{6}" required>
+                <button class="otp">Get Otp</button>
+
+                <div class="login">
+                    <button class="lgn_btn">Login</button>
+                </div>
+
+                <div class="or">
+                    <p>----------------OR----------------</p>
+                    <a href="http://127.0.0.1:5501/evote1.html" class="link">New User Register</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
